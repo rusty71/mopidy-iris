@@ -10,7 +10,7 @@ import tornado.web
 import tornado.ioloop
 import time
 import pickle
-from pkg_resources import parse_version
+from packaging.version import parse as parse_version
 from tornado.escape import json_encode
 from tornado.httpclient import AsyncHTTPClient, HTTPRequest
 from mopidy.models.serialize import ModelJSONEncoder
